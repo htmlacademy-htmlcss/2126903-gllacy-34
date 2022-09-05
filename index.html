@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link rel="icon" href="">
-    <link class="favicon" rel="icon" sizes="32x32" href="" type="image/x-icon">
+    <link rel="icon" href="favicon.ico">
+    <link class="favicon" rel="icon" sizes="32x32" href="img/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css/style.css">
   <body class="body">
         <header class="main-header">
@@ -65,11 +65,11 @@
                         </a>
                         <div class="input-form-container">
                             <h2 class="input-form-title">Личный кабинет</h2>
-                            <form class="input-form-check" action="">
-                                <label for="">
+                            <form class="input-form-check">
+                                <label>
                                     <input class="header-input header-input-email" type="email" placeholder="email@example.com">
                                 </label>
-                                <label for="">
+                                <label>
                                     <input class="header-input header-input-password" type="password" placeholder="Пароль">
                                 </label>
                                 <fieldset class="input-button-container">
@@ -294,7 +294,7 @@
                     </li>
                     <li class="card-list-item">
                         <div class="card-list-info-container">
-                            <img class="card-list-item-img" src="img/green-icecream.png" width="190" height="190" alt="">
+                            <img class="card-list-item-img" src="img/green-icecream.png" width="190" height="190" alt="Мороженое.">
                             <h4 class="card-list-item-title">Фисташка</h4>
                             <p class="card-list-item-text">Фисташковый пломбир с кусочками шоколада</p>
                             <div class="price-container">
@@ -308,7 +308,7 @@
                         </div>
                     </li>
                     <li class="card-list-item">
-                        <img class="card-list-item-img" src="img/perpl-icecream.png"  width="190" height="190" alt="">
+                        <img class="card-list-item-img" src="img/perpl-icecream.png"  width="190" height="190" alt="Мороженое.">
                         <div class="card-list-info-container">
                             <h4 class="card-list-item-title">Черника</h4>
                             <p class="card-list-item-text">Крем-брюле
@@ -324,7 +324,7 @@
                         </div>
                     </li>
                     <li class="card-list-item">
-                        <img class="card-list-item-img" src="img/blue-icecream.png"  width="190" height="190" alt="">
+                        <img class="card-list-item-img" src="img/blue-icecream.png"  width="190" height="190" alt="Мороженое.">
                         <div class="card-list-info-container">
                             <h4 class="card-list-item-title">Бабл-гам</h4>
                             <p class="card-list-item-text">Ванильный пломбир
@@ -348,13 +348,13 @@
                         <ul class="info-products-list">
                             <li class="info-products-list-item">
                                 <span class="info-products-img-container">
-                                    <img class="ingo-products-img" width="16" height="32" src="img/icons/icecream.svg" alt="">
+                                    <img class="ingo-products-img" width="16" height="32" src="img/icons/icecream.svg" alt="Мороженое на палочке.">
                                 </span>
                                 <p class="info-products-text">Всё наше мороженое изготавливается на собственном производстве с использованием современного оборудования и проверенных временем технологий.</p>
                             </li>
                             <li class="info-products-list-item">
                                 <span class="info-products-img-container">
-                                    <img class="ingo-products-img" width="32" height="32" src="img/icons/cow.svg" alt="">
+                                    <img class="ingo-products-img" width="32" height="32" src="img/icons/cow.svg" alt="Корова.">
                                 </span>
                                 <p class="info-products-text">Закупка ингредиентов производится только
                                     у проверенных фермерских хозяйств, с которыми
@@ -362,14 +362,14 @@
                             </li>
                             <li class="info-products-list-item">
                                 <span class="info-products-img-container">
-                                    <img class="ingo-products-img" width="19" height="32" src="img/icons/leaf.svg" alt="">
+                                    <img class="ingo-products-img" width="19" height="32" src="img/icons/leaf.svg" alt="Лист.">
                                 </span>
                                 <p class="info-products-text">Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты
                                     и добавки произведены из натурального сырья.</p>
                             </li>
                             <li class="info-products-list-item">
                                 <span class="info-products-img-container">
-                                    <img class="ingo-products-img" width="32" height="32" src="img/icons/thermometr.svg" alt="">
+                                    <img class="ingo-products-img" width="32" height="32" src="img/icons/thermometr.svg" alt="Термометр.">
                                 </span>
                                 <p class="info-products-text">Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому растаять и позволяет сохранить превосходный вкус.</p>
                             </li>
@@ -404,26 +404,34 @@
                 <form class="main-form">
                     <p class="form-text">Укажите адрес и дату доставки, и мы свяжемся <br> с вами, чтобы подтвердить заказ.</p>
                     <div class="modal-stok">
-                        <label class="arival-date">Дата
-                            <button class="button-info-date"></button>
+                      <fieldset class="modal-stok-container">
+                          <label class="arival-date">Дата
+                              <button class="button-info-date"></button>
+                          </label>
+                          <label class="arival-date">
                             <span class="relative">
                                 <input class=" input input-date" type="text" placeholder="01.04.2020">
                             </span>
                         </label>
+                      </fieldset>
+                      <fieldset class="modal-stok-container">
                         <label class="arival-number">Телефон
                             <span class="relative">
                                 <input class="input input-number" type="text" placeholder="+7 800 999-00-00">
                             </span>
                         </label>
+                      </fieldset>
                     </div>
-                    <div class="modal-adress">
+                    <fieldset class="modal-adress">
                         <label class="arival-date">Адрес
                             <button class="button-info-adress"></button>
-                            <span class="relative">
-                                <input class="input input-adress" type="text" placeholder="ул. Большая Конюшенная, 19/8">
-                            </span>
                         </label>
-                    </div>
+                        <label class="arival-date">
+                          <span class="relative">
+                              <input class="input input-adress" type="text" placeholder="ул. Большая Конюшенная, 19/8">
+                          </span>
+                      </label>
+                    </fieldset>
                     <button class="form-button main-form-button">Отправить</button>
                 </form>
             </section>
@@ -433,7 +441,7 @@
                         <span class="addres-text">Адрес главного офиса <br> и офлайн-магазина:</span>
                         <p class="contacts-text">наб. реки Карповки, <br> 5 лит П, Санкт-Петербург</p>
                         <span class="number-call">Для заказов по телефону:</span>
-                        <span type="number"><a class="number-link" href="">+7 (812) 812-12-12</a></span>
+                        <span><a class="number-link" href="tel:+78128121212">+7 (812) 812-12-12</a></span>
                         <span class="number-timetable">(с 10 до 20 ежедневно)</span>
                         <button class="form-button form-button-info">Форма обратной связи</button>
                     </div>
@@ -499,3 +507,22 @@
                 <span class="html-academy-text">Сделано в <a class="html-academy-link" href="">.html academy</a> © 2021</span>
             </div>
         </footer>
+
+        <div class="modal-container none">
+          <div class="modal-auth">
+              <h2 class="modal-title" >Мы обязательно ответим вам!</h2>
+              <form class="modal-form">
+                 <input class="modal-input" type="text" placeholder="Имя и фамилия">
+                 <input class="modal-input" type="email" placeholder="email@example.com">
+                 <textarea class="modal-text-input" name="message" cols="30" rows="4" placeholder="В свободной форме"></textarea>
+                 <button class="form-button modal-form-button" type="submit">Отправить</button>
+              </form>
+              <button class="modal-button-cross" type="button">
+                <svg class="button-cross-icon" width="18" height="18" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.803 4.13807C13.0634 3.87772 13.0634 3.45561 12.803 3.19526C12.5427 2.93491 12.1206 2.93491 11.8602 3.19526L7.99914 7.05633L4.13807 3.19526C3.87772 2.93491 3.45561 2.93491 3.19526 3.19526C2.93491 3.45561 2.93491 3.87772 3.19526 4.13807L7.05633 7.99914L3.19526 11.8602C2.93491 12.1206 2.93491 12.5427 3.19526 12.803C3.45561 13.0634 3.87772 13.0634 4.13807 12.803L7.99914 8.94195L11.8602 12.803C12.1206 13.0634 12.5427 13.0634 12.803 12.803C13.0634 12.5427 13.0634 12.1206 12.803 11.8602L8.94195 7.99914L12.803 4.13807Z"/>
+                </svg>
+            </button>
+          </div>
+        </div>
+  </body>
+</html>
