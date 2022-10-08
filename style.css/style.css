@@ -319,6 +319,7 @@ body {
 }
 
 .input-form-title {
+    font-family: "Inter";
     margin: 0;
     padding: 0;
     margin-bottom: 32px;
@@ -1112,6 +1113,7 @@ body {
 }
 
 .form-button {
+    font-family: "Inter";
     margin-left: 7px;
     padding: 12px 34px;
     font-size: 16px;
@@ -1229,6 +1231,7 @@ body {
 }
 
 .button-info-date::after {
+    font-family: "Inter";
     position: absolute;
     display: block;
     top: 3px;
@@ -1305,12 +1308,14 @@ body {
 }
 
 .addres-text {
+    font-family: "Inter";
     font-size: 16px;
     line-height: 22px;
     color: #565C66;
 }
 
 .number-call {
+    font-family: "Inter";
     display: block;
     margin-bottom: 12px;
     font-size: 16px;
@@ -1331,6 +1336,7 @@ body {
 }
 
 .number-link {
+    font-family: "Inter";
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
@@ -1339,6 +1345,7 @@ body {
 }
 
 .contacts-text {
+    font-family: "Inter";
     margin: 0;
     padding: 0;
     margin-top: 12px;
@@ -1411,6 +1418,7 @@ body {
 }
 
 .footer-info-list-link {
+    font-family: "Inter";
     font-size: 14px;
     line-height: 20px;
     color: #2D3440;
@@ -1700,11 +1708,12 @@ body {
 .control-input[type="checkbox"]:checked + .control-mark::before,
 .control-input[type="checkbox"]:checked + .control-mark::after {
     position: absolute;
-    top: -7px;
-    left:3px;
-    width: 10px;
-    height: 10px;
-    content: url("");
+    top: 0;
+    left:0;
+    transform: translate(-30%, -30%);
+    width: 12px;
+    height: 12px;
+    content: url("../img/icons/checkmark.svg");
 }
 
 .control-input[type="checkbox"]:checked + .control-mark,
