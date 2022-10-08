@@ -124,7 +124,7 @@ body {
     list-style-type: none;
 }
 
-.main-novigation-search-link:focus ~ .page-serch {
+.main-novigation-search-link:focus ~ .serch {
     display: block;
 }
 
@@ -204,7 +204,7 @@ body {
 }
 
 
-.page-serch {
+.serch {
     display: none;
     padding: 24px 16px;
     position: absolute;
@@ -216,12 +216,20 @@ body {
     z-index: 1;
 }
 
-.page-serch-form {
+.serch-form {
     font-family: 'Inter';
     width: 324px;
     padding: 16px 14px;
     border: 1px solid #B9B9B9;
     border-radius: 4px;
+}
+
+.serch-form:hover {
+  outline: 1px solid #2D3440;
+}
+
+.serch-form:focus {
+  outline: 2px solid #2D3440;
 }
 
 
@@ -354,6 +362,14 @@ body {
     background: #FFFFFF;
     border: 1px solid #B9B9B9;
     border-radius: 4px;
+}
+
+.header-input:hover {
+  outline: 1px solid #2D3440;
+}
+
+.header-input:focus {
+  outline: 2px solid #2D3440;
 }
 
 .input-link-conteiner {
@@ -1134,6 +1150,14 @@ body {
     border-radius: 4px;
 }
 
+.aside-input :hover {
+  outline: 1px solid #2D3440;
+}
+
+.aside-input :focus {
+  outline: 2px solid #2D3440;
+}
+
 .form-button {
     font-family: "Inter";
     margin-left: 7px;
@@ -1299,6 +1323,14 @@ body {
     background: #FFFFFF;
     border: 1px solid #B9B9B9;
     border-radius: 4px;
+}
+
+.input :hover {
+    outline: 1px solid #2D3440;
+}
+
+.input :focus {
+    outline: 2px solid #2D3440;
 }
 
 .input-date {
@@ -1571,7 +1603,17 @@ body {
     padding: 8px 16px;
     background: #FFCBD8;
     border-radius: 20px;
+    cursor: pointer;
     border: none;
+}
+
+.select-control:hover {
+    background: #FCFCFC;
+    opacity: 0.5;
+}
+
+.select-control:focus  {
+    outline: 2px solid #FCFCFC;
 }
 
 .option-card {
@@ -1967,6 +2009,14 @@ body {
   margin-bottom: 16px;
 }
 
+.modal-input:hover {
+    outline: 1px solid #2D3440;
+}
+
+.modal-input:focus {
+    outline: 2px solid #2D3440;
+}
+
 .modal-text-input {
   font-family: 'Inter';
   padding: 14px 16px;
@@ -1975,6 +2025,14 @@ body {
   border: 1px solid #B9B9B9;
   border-radius: 4px;
   margin-bottom: 32px;
+}
+
+.modal-text-input:hover {
+  outline: 1px solid #2D3440;
+}
+
+.modal-text-input:focus {
+  outline: 2px solid #2D3440;
 }
 
 .modal-form-button {
