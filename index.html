@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="style.css/style.css">
   <body class="body">
         <header class="main-header">
+          <h1 class="visually-hidden">Выбор мороженого</h1>
             <nav class="main-navigation">
-                <img class="main-logo" src="img/icons/main-logo.svg" width="137" height="56" alt="Логоти компании.">
+                <a href="index.html"><img class="main-logo" src="img/icons/main-logo.svg" width="137" height="56" alt="Логоти компании."></a>
                 <ul class="main-novigation-list main-novigation-page-list">
                     <li class="main-novigation-list-item-menu">
-                        <a class="main-novigatiion-list-item-link header-new-product" href="#">
+                        <a class="main-novigatiion-list-item-link header-new-product" href="catalog.html">
                             Каталог
                         </a>
                         <div class="new-product">
@@ -53,7 +54,9 @@
                             </svg>
                         </a>
                         <div class="page-serch">
+                          <label>
                             <input class="page-serch-form" type="text" placeholder="Поиск по сайту">
+                          </label>
                         </div>
                     </li>
                     <li class="main-novigation-list-item">
@@ -65,12 +68,12 @@
                         </a>
                         <div class="input-form-container">
                             <h2 class="input-form-title">Личный кабинет</h2>
-                            <form class="input-form-check">
+                            <form class="input-form-check" action="https://echo.htmlacademy.ru/" method="get">
                                 <label>
-                                    <input class="header-input header-input-email" type="email" placeholder="email@example.com">
+                                    <input class="header-input header-input-email" type="email" name="e-mail" placeholder="email@example.com">
                                 </label>
                                 <label>
-                                    <input class="header-input header-input-password" type="password" placeholder="Пароль">
+                                    <input class="header-input header-input-password" name="password" type="password" placeholder="Пароль">
                                 </label>
                                 <fieldset class="input-button-container">
                                     <button class="form-button" type="submit">Войти</button>
@@ -150,13 +153,13 @@
                     </div>
                     <div class="page-header-card">
                         <div class="page-header-circl">
-                            <img class="page-header-check-img" width="306" height="507" src="img/icecream1.png" alt="Мороженое">
+                            <img class="page-header-check-img" width="306" height="507" src="img/icecream1.png" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl">
-                            <img class="page-header-mini-img" src="img/icecream3.png" width="80" height="150" alt="Мороженое">
+                            <img class="page-header-mini-img" src="img/icecream3.png" width="80" height="150" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl last-card">
-                            <img class="page-header-mini-img" src="img/icecream2.png" width="80" height="150" alt="Мороженое">
+                            <img class="page-header-mini-img" src="img/icecream2.png" width="80" height="150" alt="Мороженое.">
                         </div>
                     </div>
                   </li>
@@ -171,13 +174,13 @@
                     </div>
                     <div class="page-header-card">
                         <div class="page-header-circl">
-                          <img class="page-header-check-img" width="306" height="507" src="img/icecream3.png" alt="Мороженое">
+                          <img class="page-header-check-img" width="306" height="507" src="img/icecream3.png" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl">
-                          <img class="page-header-mini-img" src="img/icecream3-2.png" width="80" height="150" alt="Мороженое">
+                          <img class="page-header-mini-img" src="img/icecream3-2.png" width="80" height="150" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl">
-                          <img class="page-header-mini-img" src="img/icecream1-2.png" width="80" height="150" alt="Мороженое">
+                          <img class="page-header-mini-img" src="img/icecream1-2.png" width="80" height="150" alt="Мороженое.">
                         </div>
                     </div>
                   </li>
@@ -193,13 +196,13 @@
                     </div>
                     <div class="page-header-card">
                         <div class="page-header-circl">
-                          <img class="page-header-check-img" width="306" height="507" src="img/icecream2.png" alt="Мороженое">
+                          <img class="page-header-check-img" width="306" height="507" src="img/icecream2.png" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl">
-                          <img class="page-header-mini-img" src="img/icecream1-2.png" width="80" height="150" alt="Мороженое">
+                          <img class="page-header-mini-img" src="img/icecream1-2.png" width="80" height="150" alt="Мороженое.">
                         </div>
                         <div class="page-header-mini-circl">
-                            <img class="page-header-mini-img" src="img/icecream2-2.png" width="80" height="150" alt="Мороженое">
+                            <img class="page-header-mini-img" src="img/icecream2-2.png" width="80" height="150" alt="Мороженое.">
                         </div>
                     </div>
                   </li>
@@ -278,7 +281,7 @@
                 <h2 class="main-card-title">Попробуйте самые популярные <br> вкусы нашего мороженого</h2>
                 <ul class="card-list">
                     <li class="card-list-item">
-                        <img class="card-list-item-img" src="img/pink-icecream.png" width="190" height="190" alt="">
+                        <img class="card-list-item-img" src="img/pink-icecream.png" width="190" height="190" alt="Розовое мороженое.">
                         <div class="card-list-info-container">
                             <h4 class="card-list-item-title">Малинка</h4>
                             <p class="card-list-item-text">Сливочное мороженое с малиновым джемом</p>
@@ -389,9 +392,11 @@
                     <div class="main-aside-email">
                         <p class="main-aside-email-text">Подпишитесь на нашу сладкую рассылку и будьте всегда
                             в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-                        <form action="aside-form">
-                            <input class="aside-input" type="email" placeholder="email@example.com">
-                            <button class="form-button">Отправить</button>
+                        <form action="aside-form" action="https://echo.htmlacademy.ru/" method="get" >
+                          <label>
+                            <input class="aside-input" type="email" name="e-mail" placeholder="email@example.com">
+                          </label>
+                            <button class="form-button" type="submit" >Отправить</button>
                         </form>
                     </div>
                 </div>
@@ -401,7 +406,7 @@
                     <h2 class="main-form-title">Доставка любимого мороженого на дом</h2>
                     <p class="main-form-text">Хочется полакомиться любимым десертом, но нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
                 </div>
-                <form class="main-form">
+                <form class="main-form" action="https://echo.htmlacademy.ru/" method="get" >
                     <p class="form-text">Укажите адрес и дату доставки, и мы свяжемся <br> с вами, чтобы подтвердить заказ.</p>
                     <div class="modal-stok">
                       <fieldset class="modal-stok-container">
@@ -410,14 +415,14 @@
                           </label>
                           <label class="arival-date">
                             <span class="relative">
-                                <input class=" input input-date" type="text" placeholder="01.04.2020">
+                                <input class=" input input-date" type="text" name="date" placeholder="01.04.2020">
                             </span>
                         </label>
                       </fieldset>
                       <fieldset class="modal-stok-container">
                         <label class="arival-number">Телефон
                             <span class="relative">
-                                <input class="input input-number" type="text" placeholder="+7 800 999-00-00">
+                                <input class="input input-number" type="text" name="number" placeholder="+7 800 999-00-00">
                             </span>
                         </label>
                       </fieldset>
@@ -428,11 +433,11 @@
                         </label>
                         <label class="arival-date">
                           <span class="relative">
-                              <input class="input input-adress" type="text" placeholder="ул. Большая Конюшенная, 19/8">
+                              <input class="input input-adress" type="text" name="adress" placeholder="ул. Большая Конюшенная, 19/8">
                           </span>
                       </label>
                     </fieldset>
-                    <button class="form-button main-form-button">Отправить</button>
+                    <button class="form-button main-form-button" type="submit">Отправить</button>
                 </form>
             </section>
             <section class="section-contacts">
@@ -511,9 +516,13 @@
         <div class="modal-container none">
           <div class="modal-auth">
               <h2 class="modal-title" >Мы обязательно ответим вам!</h2>
-              <form class="modal-form">
+              <form class="modal-form" action="https://echo.htmlacademy.ru/" method="get" >
+                <label>
                  <input class="modal-input" type="text" placeholder="Имя и фамилия">
+                </label>
+                <label>
                  <input class="modal-input" type="email" placeholder="email@example.com">
+                </label>
                  <textarea class="modal-text-input" name="message" cols="30" rows="4" placeholder="В свободной форме"></textarea>
                  <button class="form-button modal-form-button" type="submit">Отправить</button>
               </form>

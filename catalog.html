@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="style.css/style.css">
   <body class="body">
         <header class="main-header main-header-catalog">
+          <h1 class="visually-hidden">Каталог с мороженым</h1>
           <nav class="main-navigation">
-              <img class="main-logo" src="img/icons/main-logo.svg" width="137" height="56" alt="Логоти компании.">
+            <a href="index.html"><img class="main-logo" src="img/icons/main-logo.svg" width="137" height="56" alt="Логоти компании."></a>
               <ul class="main-novigation-list main-novigation-page-list">
                   <li class="main-novigation-list-item-menu">
                       <a class="main-novigatiion-list-item-link header-new-product" href="#">
@@ -52,8 +53,8 @@
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M2.66341 7.33008C2.66341 4.75275 4.75275 2.66341 7.33008 2.66341C9.90741 2.66341 11.9967 4.75275 11.9967 7.33008C11.9967 8.58735 11.4995 9.7285 10.691 10.5676C10.6682 10.5852 10.6462 10.6044 10.6253 10.6253C10.6044 10.6463 10.5852 10.6682 10.5676 10.6911C9.72847 11.4996 8.58734 11.9967 7.33008 11.9967C4.75275 11.9967 2.66341 9.90741 2.66341 7.33008ZM11.0752 12.018C10.0487 12.8391 8.74675 13.3301 7.33008 13.3301C4.01637 13.3301 1.33008 10.6438 1.33008 7.33008C1.33008 4.01637 4.01637 1.33008 7.33008 1.33008C10.6438 1.33008 13.3301 4.01637 13.3301 7.33008C13.3301 8.74676 12.8391 10.0488 12.018 11.0752L14.4681 13.5253C14.7285 13.7857 14.7285 14.2078 14.4681 14.4682C14.2078 14.7285 13.7857 14.7285 13.5253 14.4682L11.0752 12.018Z"/>
                           </svg>
                       </a>
-                      <div class="page-serch">
-                          <input class="page-serch-form" type="text" placeholder="Поиск по сайту">
+                      <div class="serch">
+                          <input class="serch-form" type="text" placeholder="Поиск по сайту">
                       </div>
                   </li>
                   <li class="main-novigation-list-item">
@@ -69,7 +70,7 @@
                               <label>
                                   <input class="header-input header-input-email" type="email" placeholder="email@example.com">
                               </label>
-                              <label >
+                              <label>
                                   <input class="header-input header-input-password" type="password" placeholder="Пароль">
                               </label>
                               <fieldset class="input-button-container">
@@ -148,7 +149,7 @@
             </section>
             <section class="catalog-filtr">
                 <h1 class="catalog-filtr-titles">Сливочное мороженое</h1>
-                <form class="catalog-filtr-form">
+                <form class="catalog-filtr-form" action="https://echo.htmlacademy.ru/" method="get">
                     <fieldset class="filtr-form-container">
                         <label class="title-form">
                             <span class="title-form-text">Сортировка:</span>
